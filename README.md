@@ -21,3 +21,4 @@
 - [ ] Web端接口
   - [X] [剧集筛选](category/video_filter.md)
   - [X] [趋势热点视频](popular/popular.md)
+  - [ ] [视频播放流](video/playurl.md)
