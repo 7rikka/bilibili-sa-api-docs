@@ -19,4 +19,5 @@
 **目录**
 
 - [ ] Web端接口
-  - [ ] [剧集筛选](category/video_filter.md)
+  - [X] [剧集筛选](category/video_filter.md)
+  - [X] [趋势热点视频](popular/popular.md)
