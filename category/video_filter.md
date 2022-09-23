@@ -8,7 +8,7 @@
 
 是否需要登录：`否`
 
-## URL参数：
+## URL参数
 
 | 参数名           | 类型  | 必填  | 内容   | 备注                                                                                                      |
 |---------------|-----|-----|------|---------------------------------------------------------------------------------------------------------|
@@ -24,7 +24,7 @@
 | index_month   | num |     | 开播月份 | 可选[1,4,7,10]                                                                                            |
 | order         | num |     | 排序方式 | 0: Hot(热度优先)<br/>2: latest(最近更新)                                                                        |
 
-## 语种代码：
+## 语种代码
 
 | 语言代码  | 说明     |
 |-------|--------|
@@ -63,7 +63,7 @@
 
 ## Json回复
 
-### 根对象: 
+### 根对象
 
 | 字段名     | 类型  | 内容   | 备注                   |
 |---------|-----|------|----------------------|
@@ -72,7 +72,7 @@
 | ttl     | num | 1    |                      |
 | data    | obj | 信息本体 |                      |
 
-### `data`对象: 
+### `data`对象
 
 | 字段名      | 类型    | 内容      | 备注                |
 |----------|-------|---------|-------------------|
@@ -82,7 +82,7 @@
 | num      | num   | 当前页数    |                   |
 | has_next | bool  | 是否有下一页  |                   |
 
-### `data`对象`cards`数组中的对象: 
+### `data`对象`cards`数组中的对象
 
 | 字段名           | 类型    | 内容          | 备注  |
 |---------------|-------|-------------|-----|
@@ -104,3 +104,54 @@
 | view_at       | str   | `空串`        |     |
 | pub_time_text | str   | `空串`        |     |
 | unavailable   | bool  | `false`     |     |
+
+## 请求示例
+
+```shell
+curl -L -X GET 'https://api.bilibili.tv/intl/gateway/web/v2/ogv/index/items_v2?s_locale=en_US&platform=web&pn=1&ps=1&season_type=1,4'
+```
+
+## 响应示例
+
+<details>
+<summary>点击查看</summary>
+
+```json
+{
+    "code": 0,
+    "message": "0",
+    "ttl": 1,
+    "data": {
+        "cards": [
+            {
+                "type": "ogv",
+                "card_type": "ogv_anime",
+                "title": "Boruto: Naruto Next Generations",
+                "cover": "https://pic.bstarstatic.com/ogv/bb773a7dd56520ac4b27a9f7feaf4f3d5dda8f9f.png",
+                "view": "263.2M Views",
+                "styles": "",
+                "style_list": [
+                    "Action",
+                    "Comedy"
+                ],
+                "season_id": "1005426",
+                "episode_id": "",
+                "index_show": "E267 Released",
+                "label": 0,
+                "rank_info": null,
+                "view_history": null,
+                "watched": "",
+                "duration": "",
+                "view_at": "",
+                "pub_time_text": "",
+                "unavailable": false
+            }
+        ],
+        "total": 877,
+        "size": 1,
+        "num": 1,
+        "has_next": true
+    }
+}
+```
+</details>
