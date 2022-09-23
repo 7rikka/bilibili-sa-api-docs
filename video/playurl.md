@@ -501,3 +501,9 @@ curl -L -X GET 'https://api.bilibili.tv/intl/gateway/web/playurl?s_locale=en_US&
 }
 ```
 </details>
+
+# 下载播放流
+
+获取到的直链可以使用IDM等下载工具进行下载，无需添加Header。好耶！！！
+
+![下载效果](../img/idm.png)

@@ -1,4 +1,4 @@
-# 获取趋势热点视频列表
+# 获取热点视频列表
 
 > https://www.bilibili.tv/en/popular
 
