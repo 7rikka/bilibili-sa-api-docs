@@ -21,6 +21,9 @@
 - [ ] Web端接口
     - [X] [剧集筛选](category/video_filter.md)
     - [X] [热点视频](popular/popular.md)
+    - [ ] [弹幕相关]()
+      - [ ] [获取视频弹幕](danmaku/danmaku.md#获取视频弹幕)
+      - [X] [发送弹幕](danmaku/send.md#发送弹幕)
     - [ ] [评论相关]()
       - [X] [获取视频评论](reply/reply.md#获取视频评论)
       - [X] [发送视频评论](reply/send.md#发送视频评论)
