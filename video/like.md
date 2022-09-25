@@ -22,7 +22,7 @@ Content-Type：`application/json`
 | type     | num | √   | 3: 普通视频<br/>4: 剧集    |       |
 | oid      | str | √   | 剧集：分集id<br/>普通视频：av号 |       |
 | action   | num | √   | 1: 点赞<br/>2: 取消点赞    |       |
-| progress | num |     | 当前播放进度               | 单位：毫秒 |
+| progress | num |     | 视频当前播放进度             | 单位：毫秒 |
 | spm_id   | str |     |                      |       |
 
 ## Json回复

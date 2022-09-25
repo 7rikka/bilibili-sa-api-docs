@@ -1,5 +1,5 @@
-<h1 align="center">哔哩哔哩-东南亚 API收集</h1>
-<p align="center">
+<h1 style="text-align:center">哔哩哔哩-东南亚 API收集</h1>
+<p style="text-align:center">
     <a href="https://github.com/7rikka/bilibili-sa-api-docs/issues" style="text-decoration:none">
         <img src="https://img.shields.io/github/issues/7rikka/bilibili-sa-api-docs.svg" alt="GitHub issues"/>
     </a>
@@ -24,3 +24,7 @@
   - [X] [视频播放流](video/playurl.md)
   - [X] [评论列表](reply/reply.md)
   - [X] [视频点赞](video/like.md)
+  - [X] [视频点赞](video/like.md)
+  - [X] [收藏视频](video/like.md)
+    - [X] [收藏视频](video/fav.md#收藏视频)
+    - [X] [取消收藏视频](video/fav.md#取消收藏视频)
