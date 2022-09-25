@@ -1,4 +1,4 @@
-# 点赞/取消点赞视频
+# 点赞/取消点赞评论
 
 > https://api.bilibili.tv/intl/gateway/web/v2/play/like
 
@@ -29,12 +29,12 @@ Content-Type：`application/json`
 
 ### 根对象
 
-| 字段名     | 类型  | 内容    | 备注                   |
-|---------|-----|-------|----------------------|
-| code    | num | 响应码   | 0: 成功<br/>-111: -111 |
-| message | str | 0     |                      |
-| ttl     | num | 1     |                      |
-| data    | obj | `空对象` |                      |
+| 字段名     | 类型  | 内容    | 备注    |
+|---------|-----|-------|-------|
+| code    | num | 响应码   | 0: 成功 |
+| message | str | 0     |       |
+| ttl     | num | 1     |       |
+| data    | obj | `空对象` |       |
 
 ## 请求示例
 
