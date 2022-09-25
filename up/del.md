@@ -1,4 +1,4 @@
-# [UP主]删除视频
+# [UP主]删除稿件
 
 > https://api.bilibili.tv/intl/videoup/web2/del
 
