@@ -35,4 +35,5 @@
         - [X] [收藏视频](video/fav.md#收藏视频)
         - [X] [取消收藏视频](video/fav.md#取消收藏视频)
         - [X] [点赞/取消点赞评论](video/like.md#点赞/取消点赞评论)
+        - [X] [[UP主]置顶/取消置顶自己的视频](video/top.md#[UP主]置顶/取消置顶自己的视频)
     - [X] [关注/取消关注用户](user/follow.md)
