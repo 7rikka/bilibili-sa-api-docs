@@ -2,6 +2,7 @@
 
 | code     | message                                         | 中文说明     | 备注               |
 |----------|-------------------------------------------------|----------|------------------|
+| -101     | Your account is not logged in.                  | 账号未登录    |                  |
 | -111     | -111                                            | -111     | 没传csrf           |
 | -404     | Unknown error. Please contact customer service. | 啥都木有     |                  |
 | 10003003 | The area is inaccessible                        | 该地区无法访问  |                  |

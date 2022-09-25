@@ -22,5 +22,5 @@
   - [X] [剧集筛选](category/video_filter.md)
   - [X] [热点视频](popular/popular.md)
   - [X] [视频播放流](video/playurl.md)
-  - [ ] [评论列表](reply/reply.md)
-  
+  - [X] [评论列表](reply/reply.md)
+  - [X] [视频点赞](video/like.md)
