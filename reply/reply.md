@@ -12,7 +12,7 @@
 |-----------|-----|-----|----------------------|-----------------------------------|
 | s_locale  | str |     | 语种代码                 | 默认为英语<br/>[语言代码表](../language.md) |
 | platform  | str |     | 平台                   |                                   |
-| pn        | str |     |                      |                                   |
+| pn        | str |     | 页数                   | 从`0`开始                            |
 | ps        | str |     |                      |                                   |
 | oid       | num | √   | 剧集：分集id<br/>普通视频：av号 |                                   |
 | type      | num | √   | `3`                  |                                   |
@@ -49,22 +49,22 @@
 
 ### `data`对象 -> `replies`数组中的对象
 
-| 字段名                | 类型    | 内容   | 备注  |
-|--------------------|-------|------|-----|
-| rpid               | str   | 评论id |     |
-| parent             | str   |      |     |
-| root               | str   |      |     |
-| count              | num   |      |     |
-| count_text         | str   |      |     |
-| like_count         | str   |      |     |
-| like_state         | num   |      |     |
-| ctime_text         | str   |      |     |
-| is_top             | num   |      |     |
-| is_top_text        | str   |      |     |
-| uploader_like_text | str   |      |     |
-| member             | obj   |      |     |
-| content            | obj   |      |     |
-| replies            | array |      |     |
+| 字段名                | 类型    | 内容                   | 备注  |
+|--------------------|-------|----------------------|-----|
+| rpid               | str   | 评论id                 |     |
+| parent             | str   | 父评论id                |     |
+| root               | str   | 根评论id                |     |
+| count              | num   | 子评论数                 |     |
+| count_text         | str   | 子评论数显示文本             |     |
+| like_count         | str   | 点赞数                  |     |
+| like_state         | num   | 当前用户是否点赞             |     |
+| ctime_text         | str   | 评论发送时间显示文本           |     |
+| is_top             | num   | 是否置顶<br/>0：否<br/>1：是 |     |
+| is_top_text        | str   | 置顶评论显示文本             |     |
+| uploader_like_text | str   |                      |     |
+| member             | obj   |                      |     |
+| content            | obj   |                      |     |
+| replies            | array |                      |     |
 
 ### `data`对象 -> `replies`数组 -> `member`对象
 
@@ -73,7 +73,7 @@
 | mid       | str | 用户id |     |
 | name      | str | 用户名  |     |
 | face      | str | 头像   |     |
-| face      | num | `0`  |     |
+| type      | num | `0`  |     |
 | type_text | str | `空串` |     |
 
 ### `data`对象 -> `replies`数组 -> `content`对象
