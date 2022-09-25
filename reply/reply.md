@@ -1,6 +1,6 @@
 # 获取视频评论
 
-> https://api.bilibili.tv/intl/gateway/web/v2/reply/root?s_locale=en_US&platform=web&pn=0&ps=20&oid=10142191&type=3&sort_type=1
+> https://api.bilibili.tv/intl/gateway/web/v2/reply/root
 
 请求方式：`GET`
 
@@ -14,7 +14,7 @@
 | platform  | str |     | 平台     |                                   |
 | pn        | str |     |        |                                   |
 | ps        | str |     |        |                                   |
-| oid       | num | √   | 关联分集id |                                   |
+| oid       | num | √   | 剧集：分集id<br/>普通视频：av号 |                                   |
 | type      | num | √   | `3`    |                                   |
 | sort_type | num |     | 排序方式   | 1: 最热 2: 最新                       |
 
@@ -104,3 +104,70 @@
 | 字段名    | 类型   | 内容      | 备注  |
 |--------|------|---------|-----|
 | is_end | bool | `false` |     |
+
+## 请求示例
+
+```shell
+curl -L -X GET 'https://api.bilibili.tv/intl/gateway/web/v2/reply/root?s_locale=en_US&platform=web&pn=1&ps=1&oid=379287&type=3&sort_type=1'
+```
+
+## 响应示例
+
+<details>
+<summary>点击查看</summary>
+
+```json
+{
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "tabs": [
+      {
+        "type": 1,
+        "name": "Best",
+        "selected": true
+      },
+      {
+        "type": 2,
+        "name": "Recent",
+        "selected": false
+      }
+    ],
+    "replies": [
+      {
+        "rpid": "11103034319831045",
+        "parent": "",
+        "root": "",
+        "count": 306,
+        "count_text": "306",
+        "like_count": "700",
+        "like_state": 0,
+        "ctime_text": "22/06/2021",
+        "is_top": 0,
+        "is_top_text": "",
+        "uploader_like_text": "",
+        "member": {
+          "mid": "1568849546",
+          "name": "April Anne Igcasenza",
+          "face": "https://pic.bstarstatic.com/face/6fb3b91301b32cfe414db9cdc5bba6eb30da6939.jpg",
+          "type": 0,
+          "type_text": ""
+        },
+        "content": {
+          "message": "Sino Filipino dito?🥺",
+          "members": null,
+          "emoji": {}
+        },
+        "replies": []
+      }
+    ],
+    "total": 9632,
+    "total_text": "9.6K",
+    "cursor": {
+      "is_end": false
+    }
+  }
+}
+```
+</details>
