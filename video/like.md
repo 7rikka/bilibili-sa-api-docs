@@ -1,4 +1,4 @@
-# 视频点赞
+# 点赞/取消点赞视频
 
 > https://api.bilibili.tv/intl/gateway/web/v2/play/like
 
