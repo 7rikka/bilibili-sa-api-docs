@@ -56,8 +56,8 @@ Content-Type：`application/json`
 | like_state         | num | 当前用户是否点赞             |     |
 | ctime_text         | str | 评论发送时间显示文本           |     |
 | is_top             | num | 是否置顶<br/>0：否<br/>1：是 |     |
-| is_top_text        | str | 置顶评论                 |     |
-| uploader_like_text | str | 置顶评论显示文本             |     |
+| is_top_text        | str | 置顶评论显示文本             |     |
+| uploader_like_text | str | 作者点赞显示文本             |     |
 | member             | obj | 当前用户信息               |     |
 | content            | obj | 回复内容                 |     |
 | replies            |     | `null`               |     |
