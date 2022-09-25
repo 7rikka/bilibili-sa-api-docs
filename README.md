@@ -19,8 +19,8 @@
 **目录**
 
 - [ ] Web端接口
-    - [X] [剧集筛选](category/video_filter.md)
-    - [X] [热点视频](popular/popular.md)
+    - [X] [按标签筛选剧集](category/video_filter.md#按标签筛选剧集)
+    - [X] [获取热点视频列表](popular/popular.md#获取热点视频列表)
     - [ ] [弹幕相关]()
       - [ ] [获取视频弹幕](danmaku/danmaku.md#获取视频弹幕)
       - [X] [发送弹幕](danmaku/send.md#发送弹幕)
@@ -34,11 +34,12 @@
       - [X] [[UP主]回复自己视频下的评论](reply/send.md#[UP主]回复自己视频下的评论)
     - [ ] [视频相关]()
         - [X] [获取视频播放流](video/playurl.md#获取视频播放流)
-        - [X] [点赞/取消点赞视频](video/like.md)
+        - [X] [点赞/取消点赞视频](video/like.md#点赞/取消点赞视频)
         - [X] [收藏视频](video/fav.md#收藏视频)
         - [X] [取消收藏视频](video/fav.md#取消收藏视频)
         - [X] [点赞/取消点赞评论](video/like.md#点赞/取消点赞评论)
         - [X] [[UP主]置顶/取消置顶自己的视频](video/top.md#[UP主]置顶/取消置顶自己的视频)
         - [X] [[UP主]删除视频](video/del.md#[UP主]删除视频)
     - [ ] [用户相关]()
-        - [X] [关注/取消关注用户](user/follow.md)
+        - [X] [关注/取消关注用户](user/follow.md#关注/取消关注用户)
+        - [X] [获取指定用户上传的视频列表](user/video.md#获取指定用户上传的视频列表)
