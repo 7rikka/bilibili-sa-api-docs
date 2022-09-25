@@ -29,6 +29,7 @@
       - [X] [[UP主]删除自己视频下的评论](reply/del.md#[UP主]删除自己视频下的评论)
       - [X] [[UP主]置顶自己视频下的评论](reply/top.md#[UP主]置顶自己视频下的评论)
       - [X] [[UP主]点赞自己视频下的评论](reply/like.md#[UP主]点赞自己视频下的评论)
+      - [X] [[UP主]回复自己视频下的评论](reply/send.md#[UP主]回复自己视频下的评论)
     - [X] [点赞/取消点赞视频](video/like.md)
     - [X] [收藏/取消收藏视频](video/fav.md)
         - [X] [收藏视频](video/fav.md#收藏视频)

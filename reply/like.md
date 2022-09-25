@@ -78,7 +78,7 @@ curl -L -X POST 'https://api.bilibili.tv/intl/gateway/web/v2/reply/like?s_locale
 
 是否需要登录：`是`
 
-Content-Type：`application/json`
+Content-Type：`application/x-www-form-urlencoded`
 
 ## URL参数
 
