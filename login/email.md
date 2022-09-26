@@ -145,6 +145,10 @@ curl -L -X POST 'https://passport.bilibili.tv/x/intl/passport-login/web/login/pa
 ```
 </details>
 
+## 解析Cookie
+
+**从响应返回的Header中获取`SESSDATA`、`bili_jct`和`DedeUserID`**
+
 # 密码加密示例
 
 **Java实现：**
