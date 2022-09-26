@@ -30,7 +30,7 @@
       - [ ] [通过Facebook登录]()
       - [ ] [通过Google登录]()
       - [ ] [通过Twitter登录]()
-      - [ ] [注销登录]()
+      - [X] [注销登录](login/exit.md#注销登录)
     - [ ] [弹幕相关]()
       - [ ] [获取视频弹幕](danmaku/danmaku.md#获取视频弹幕)
       - [X] [发送弹幕](danmaku/send.md#发送弹幕)
