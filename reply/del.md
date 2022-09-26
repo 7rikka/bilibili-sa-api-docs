@@ -1,6 +1,6 @@
 # [UP主]删除自己视频下的评论
 
-> https://api.bilibili.tv/studio/reply/del?lang_id=3&lang=en_US&s_locale=en_US&timezone=GMT%2B08:00&csrf=e8deac4d72e96910ab50dff53b9a1a02
+> https://api.bilibili.tv/studio/reply/del
 
 请求方式：`POST`
 

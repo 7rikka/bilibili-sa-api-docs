@@ -37,7 +37,7 @@ Content-Type：`application/x-www-form-urlencoded`
 ## 请求示例
 
 ```shell
-curl -L -X POST 'https://api.bilibili.tv/intl/videoup/web2/del?lang_id=3&lang=en_US&s_locale=en_US&timezone=GMT%2B08:00&csrf=e8deac4d72e96910ab50dff53b9a1a02' \
+curl -L -X POST 'https://api.bilibili.tv/intl/videoup/web2/del?lang_id=3&lang=en_US&s_locale=en_US&timezone=GMT%2B08:00&csrf=xxx' \
 -H 'cookie: SESSDATA=xxx' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'aid=2047772058'

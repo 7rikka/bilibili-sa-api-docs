@@ -112,7 +112,7 @@ Content-Type：`application/x-www-form-urlencoded`
 ## 请求示例
 
 ```shell
-curl -L -X POST 'https://api.bilibili.tv/studio/reply/like?lang_id=3&lang=en_US&s_locale=en_US&timezone=GMT%2B08:00&csrf=e8deac4d72e96910ab50dff53b9a1a02' \
+curl -L -X POST 'https://api.bilibili.tv/studio/reply/like?lang_id=3&lang=en_US&s_locale=en_US&timezone=GMT%2B08:00&csrf=xxx' \
 -H 'cookie: SESSDATA=xxx' \
 -H 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'rpid=35591149916261376' \
