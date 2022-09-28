@@ -10,6 +10,7 @@
 
 Content-Type：`application/x-www-form-urlencoded`
 Content-Type：`application/json`
+Content-Type：`multipart/form-data`
 
 ## URL参数
 

@@ -10,5 +10,6 @@
 | 22001    | You can not follow your own account.                     | 不可以关注自己哦           |                    |
 | 10003003 | The area is inaccessible                                 | 该地区无法访问            |                    |
 | 10004002 | 10004002                                                 | 10004002           | 获取av170001播放流时返回   |
+| 10004051 | Error with file data. Please upload cover image again.   | 封面内容错误，请重新上传图片     | 上传稿件封面             |
 | 10004307 | Your title may contain sensitive words. Please change it | 您输入的标题可能含有敏感词汇，请更换 |                    |
 | 10010010 | Comments are not available                               | 评论区不存在             |                    |
