@@ -28,12 +28,12 @@ Content-Type：`application/json`
 
 ### 根对象
 
-| 字段名     | 类型  | 内容   | 备注   |
-|---------|-----|------|------|
-| code    | num | 响应码  | 0：成功 |
-| message | str | 0    |      |
-| ttl     | num | 1    |      |
-| data    | obj | 信息本体 |      |
+| 字段名     | 类型  | 内容   | 备注                                                                         |
+|---------|-----|------|----------------------------------------------------------------------------|
+| code    | num | 响应码  | 0：成功<br/>10004307：Your title may contain sensitive words. Please change it |
+| message | str | 0    |                                                                            |
+| ttl     | num | 1    |                                                                            |
+| data    | obj | 信息本体 |                                                                            |
 
 ### `data`对象
 
@@ -44,7 +44,7 @@ Content-Type：`application/json`
 | cover     | str  | 播放列表封面     |                      |
 | arc_count | num  | 播放列表包含的视频数 |                      |
 | full      | bool | 播放列表是否已满   |                      |
-| update_at | str  | 更新时间       | 格式：dd/MM/yyyy  HH:mm |
+| update_at | str  | 最后更新时间     | 格式：dd/MM/yyyy  HH:mm |
 
 ## 请求示例
 
