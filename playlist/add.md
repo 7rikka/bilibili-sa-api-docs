@@ -64,17 +64,18 @@ curl -L -X POST 'https://api.bilibili.tv/intl/videoup/web2/playlist/add?lang_id=
 
 ```json
 {
-    "code": 0,
-    "message": "0",
-    "ttl": 1,
-    "data": {
-        "id": "6891",
-        "title": "123",
-        "cover": "",
-        "arc_count": 0,
-        "full": false,
-        "update_at": "28/09/2022  16:30"
-    }
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "id": "6891",
+    "title": "123",
+    "cover": "",
+    "arc_count": 0,
+    "full": false,
+    "update_at": "28/09/2022  16:30"
+  }
 }
 ```
+
 </details>

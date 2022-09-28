@@ -58,29 +58,30 @@ curl -L -X GET 'https://api.bilibili.tv/intl/videoup/web2/playlist/list?lang_id=
 
 ```json
 {
-    "code": 0,
-    "message": "0",
-    "ttl": 1,
-    "data": {
-        "playlist": [
-            {
-                "id": "6773",
-                "title": "123",
-                "cover": "",
-                "arc_count": 0,
-                "full": false,
-                "update_at": "27/09/2022  21:19"
-            },
-            {
-                "id": "6772",
-                "title": "123",
-                "cover": "",
-                "arc_count": 0,
-                "full": false,
-                "update_at": "27/09/2022  21:18"
-            }
-        ]
-    }
+  "code": 0,
+  "message": "0",
+  "ttl": 1,
+  "data": {
+    "playlist": [
+      {
+        "id": "6773",
+        "title": "123",
+        "cover": "",
+        "arc_count": 0,
+        "full": false,
+        "update_at": "27/09/2022  21:19"
+      },
+      {
+        "id": "6772",
+        "title": "123",
+        "cover": "",
+        "arc_count": 0,
+        "full": false,
+        "update_at": "27/09/2022  21:18"
+      }
+    ]
+  }
 }
 ```
+
 </details>
