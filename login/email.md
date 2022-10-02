@@ -151,7 +151,7 @@ curl -L -X POST 'https://passport.bilibili.tv/x/intl/passport-login/web/login/pa
 
 # 密码加密示例
 
-**Java实现：**
+## Java实现
 
 ```java
 import cn.hutool.core.codec.Base64;
